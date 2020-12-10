@@ -45,10 +45,9 @@ html section {
 }
 html .container {
   position: fixed;
-  top: 40%;
-  left: 20%;
-  transform: translate(-40%, 20%);
-  transform: rotate(15deg);
+  top: 10%;
+  left: 30%;
+  transform: translate(-10%, 30%);
   display: flex;
   flex-wrap: wrap;
   width: 600px;
@@ -61,6 +60,12 @@ html .container div {
   height: 150px;
   transition: all 0.3s;
   transform: translate(0, 0);
+}
+html .container div img {
+  width: 125px;
+  height: 125px;
+  padding: 0;
+  margin: 0;
 }
 html .container div:nth-child(1) {
   transform: translate(-100vw, 0vh);
